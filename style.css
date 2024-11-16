@@ -1,0 +1,53 @@
+body {
+    background-color: #262c2e;
+    color: white;
+}
+
+.navbar {
+    background-color: #252728;
+}
+
+.nav .nav-link.active{
+    background-color: #ddd;
+    color: #252728;
+}
+
+#carousel-img img {
+    width: 100%;
+}
+
+.carousel-caption h1 {
+    font-size: 3rem;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.navbar-toggler {
+    background-color: #ddd;
+    margin-left: 15px;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+.social-links i {
+    color: white;
+}
+
+.col-md-3 button {
+    color: rgb(180, 180, 180);
+}
+
+.col-md-3 h5 {
+    color: rgb(180, 180, 180);
+}
+
+.nav .nav-link {
+    color: #ddd;
+}

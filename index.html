@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aero Brazil</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+    
+    <header class="navbar navbar-expand-lg sticky-top p-3" id="cabecalho">
+        <div class="container">
+            <h1>Aero Brazil</h1>
+            <a href="#">
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </a>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item">
+                        <a href="#futuro" class="nav-link active">
+                            <i class="bi bi-rocket-takeoff-fill me-1"></i>
+                            Futuro
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#restaurante" class="nav-link">
+                            <i class="bi bi-card-list me-1"></i>
+                            Restaurante
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#modelos" class="nav-link">
+                            <i class="bi bi-airplane-fill me-1"></i>
+                            Modelos
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text-fill me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div data-bs-sply="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
+        <section id="futuro">
+            <div id="carousel-img" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel-img" data-bs-slide-to="0" class="active" aria-current="true" aria-label="slide 1"></button>
+                    <button type="button" data-bs-target="#carousel-img" data-bs-slide-to="1" aria-label="slide 2"></button>
+                    <button type="button" data-bs-target="#carousel-img" data-bs-slide-to="2" aria-label="slide 3"></button>
+                    <button type="button" data-bs-target="#carousel-img" data-bs-slide-to="3" aria-label="slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="1000">
+                        <img src="./imagens/slide1.png" class="d-block w-100" alt="">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1>AIRWAYS</h1>
+                            <p>Um avião azul de alto conforto</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="1000">
+                        <img src="./imagens/slide2.png" class="d-block w-100" alt="">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1>AIRWAYS</h1>
+                            <p>Um Royal AIR FORCE para complatar a segurança</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="1000">
+                        <img src="./imagens/slide3.png" class="d-block w-100" alt="">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1>AIRWAYS</h1>
+                            <p>Para qualquer lugar 9N-ALW</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="1000">
+                        <img src="./imagens/slide4.png" class="d-block w-100" alt="">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1>AIRWAYS</h1>
+                            <p>RYANAIR para voar mais alto</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel-img" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel-img" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <div class="pt-5 pb-3">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-7">
+                            <img class="d-block w-100" src="./frente_img/ma0af1hp.png" alt="">
+                        </div>
+                        <div class="col-md-5 mt-3 mt-md-0">
+                            <h2>Sobre nós</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem dolor beatae ea sequi eligendi molestiae fuga facere consectetur eum excepturi sint, ratione quidem enim, dicta consequuntur. Dicta quam impedit facere!
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel architecto accusantium fugiat deserunt quaerat recusandae nihil vero saepe assumenda excepturi, voluptatibus quasi atque deleniti qui odio cupiditate, voluptas perferendis error.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pb-5" id="restaurante">
+            <div class="container">
+                <div class="row pt-5 pb-5">
+                    <h2 class="text-center">RESTAURANTE AERO BRAZIL </h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="./foto_restaurante/8ryiul1b.png" class="d-block w-100" alt="">
+                    </div>
+                    <div class="col-md-6">
+                        <h3 class="pb-2">
+                            <i class="bi bi-card-list pe-2"></i>
+                            Comidas leves e saúdaveis
+                        </h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam labore fugiat molestias eum sapiente, quos iusto exercitationem tenetur id magni facere consequuntur maxime esse officia. Facere quos voluptas porro cupiditate!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur fuga commodi fugiat at qui, totam rerum tenetur et velit tempora provident deleniti. Adipisci cumque minus corrupti. Libero quia quaerat reiciendis.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quaerat ullam eum amet et nemo, asperiores sed ratione possimus corrupti dicta nostrum consectetur adipisci iusto pariatur eveniet maiores quisquam soluta!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pb-5" id="modelos">
+            <div class="container">
+                <div class="row pb-5">
+                    <h2 class="text-center">Modelos</h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#avioes-menores" class="fw-bold nav-link active">Aviões pequenos</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#avioes-maiores" class="fw-bold nav-link">Aviões maiores</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content tab-modelos">
+                            <div class="tab-pane active" id="avioes-menores">
+                                <div class="row">
+                                    <div class="col-md-3 d-flex flex-column">
+                                        <img src="./pequeno_porte/bbwgc313.png" class="d-block w-100" alt="">
+                                        <h5 class="fw-bold mt-2">PT-JZC</h5>
+                                        <p>Pequeno porte
+                                        <br>
+                                        Modelo recém-lançado
+                                        <br>
+                                        </p>
+                                        <div class="mt-auto d-grid mb-3 gap-2">
+                                            <button type="button" class="btn btn-outline-light">Saiba mais</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 d-flex flex-column">
+                                        <img src="./pequeno_porte/kkc6an72.png" class="d-block w-100" alt="">
+                                        <h5 class="fw-bold mt-2">PT-JZC</h5>
+                                        <p>Pequeno porte
+                                        <br>
+                                        Modelo recém-lançado
+                                        <br>
+                                        </p>
+                                        <div class="mt-auto d-grid mb-3 gap-2">
+                                            <button type="button" class="btn btn-outline-light">Saiba mais</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 d-flex flex-column">
+                                        <img src="./pequeno_porte/oy78t6ip.png" class="d-block w-100" alt="">
+                                        <h5 class="fw-bold mt-2">PT-JZC</h5>
+                                        <p>Pequeno porte
+                                        <br>
+                                        Modelo recém-lançado
+                                        <br>
+                                        </p>
+                                        <div class="mt-auto d-grid mb-3 gap-2">
+                                            <button type="button" class="btn btn-outline-light">Saiba mais</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 d-flex flex-column">
+                                        <img src="./pequeno_porte/rwbua9c4.png" class="d-block w-100" alt="">
+                                        <h5 class="fw-bold mt-2">PT-JZC</h5>
+                                        <p>Pequeno porte
+                                        <br>
+                                        Modelo recém-lançado
+                                        <br>
+                                        </p>
+                                        <div class="mt-auto d-grid mb-3 gap-2">
+                                            <button type="button" class="btn btn-outline-light">Saiba mais</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 d-flex flex-column">
+                                        <img src="./pequeno_porte/oy78t6ip.png" class="d-block w-100" alt="">
+                                        <h5 class="fw-bold mt-2">PT-JZC</h5>
+                                        <p>Pequeno porte
+                                        <br>
+                                        Modelo recém-lançado
+                                        <br>
+                                        </p>
+                                        <div class="mt-auto d-grid mb-3 gap-2">
+                                            <button type="button" class="btn btn-outline-light">Saiba mais</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 d-flex flex-column">
+                                        <img src="./pequeno_porte/rwbua9c4.png" class="d-block w-100" alt="">
+                                        <h5 class="fw-bold mt-2">PT-JZC</h5>
+                                        <p>Pequeno porte
+                                        <br>
+                                        Modelo recém-lançado
+                                        <br>
+                                        </p>
+                                        <div class="mt-auto d-grid mb-3 gap-2">
+                                            <button type="button" class="btn btn-outline-light">Saiba mais</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 d-flex flex-column">
+                                        <img src="./pequeno_porte/oy78t6ip.png" class="d-block w-100" alt="">
+                                        <h5 class="fw-bold mt-2">PT-JZC</h5>
+                                        <p>Pequeno porte
+                                        <br>
+                                        Modelo recém-lançado
+                                        <br>
+                                        </p>
+                                        <div class="mt-auto d-grid mb-3 gap-2">
+                                            <button type="button" class="btn btn-outline-light">Saiba mais</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 d-flex flex-column">
+                                        <img src="./pequeno_porte/rwbua9c4.png" class="d-block w-100" alt="">
+                                        <h5 class="fw-bold mt-2">PT-JZC</h5>
+                                        <p>Pequeno porte
+                                        <br>
+                                        Modelo recém-lançado
+                                        <br>
+                                        </p>
+                                        <div class="mt-auto d-grid mb-3 gap-2">
+                                            <button type="button" class="btn btn-outline-light">Saiba mais</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="avioes-maiores">
+                                <div class="row">
+                                    <div class="col-md-3 d-flex flex-column">
+                                        <img src="./grande_porte/li3vy9nh.png" class="d-block w-100" alt="">
+                                        <h5 class="fw-bold mt-2">Quartim</h5>
+                                        <p>Grande porte
+                                        <br>
+                                        Mais qualidade e conforto
+                                        <br>
+                                        </p>
+                                        <div class="mt-auto d-grid mb-3 gap-2">
+                                            <button type="button" class="btn btn-outline-light">Saiba mais</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 d-flex flex-column">
+                                        <img src="./grande_porte/oimzw72e.png" class="d-block w-100" alt="">
+                                        <h5 class="fw-bold mt-2">Latam</h5>
+                                        <p>Grande porte
+                                        <br>
+                                        Mais qualidade e conforto
+                                        <br>
+                                        </p>
+                                        <div class="mt-auto d-grid mb-3 gap-2">
+                                            <button type="button" class="btn btn-outline-light">Saiba mais</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 d-flex flex-column">
+                                        <img src="./grande_porte/r4iavopi.png" class="d-block w-100" alt="">
+                                        <h5 class="fw-bold mt-2">Quartim</h5>
+                                        <p>Grande porte
+                                        <br>
+                                        Mais qualidade e conforto
+                                        <br>
+                                        </p>
+                                        <div class="mt-auto d-grid mb-3 gap-2">
+                                            <button type="button" class="btn btn-outline-light">Saiba mais</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 d-flex flex-column">
+                                        <img src="./grande_porte/zeophuq4.png" class="d-block w-100" alt="">
+                                        <h5 class="fw-bold mt-2">Gol</h5>
+                                        <p>Grande porte
+                                        <br>
+                                        Mais qualidade e conforto
+                                        <br>
+                                        </p>
+                                        <div class="mt-auto d-grid mb-3 gap-2">
+                                            <button type="button" class="btn btn-outline-light">Saiba mais</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pt-5 pb-5" id="fale-conosco">
+            <div class="container">
+                <div class="row mb-4">
+                    <h2 class="text-center">Fale conosco</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form id="formulario">
+                            <div class="mb-3">
+                                <label for="name" class="form-label fw-bold">Seu nome</label>
+                                <input type="text" id="name" class="form-control" placeholder="Fabricio Lacerda" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold">Seu e-mail</label>
+                                <input type="email" id="email" class="form-control" placeholder="exemplo@aero.com" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="phone" class="form-label fw-bold">Seu número (opcional)</label>
+                                <input type="tel" id="phone" class="form-control" placeholder="(00) 00000-0000">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold">Sua mensagem</label>
+                                <textarea class="form-control" id="mensagem" required></textarea>
+                            </div>
+                            <div class="d-grid mt-3 gap-2">
+                                <button type="submit" class="btn btn-outline-light">Enviar</button>
+                            </div>
+                        </form>
+                        <div id="error-message" style="color: red; display: none;"></div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row mt-1">
+                            <h3 class="fs-4">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-facebook"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-twitter-x"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="fs-4">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>Rua Teste nº314, Bairro Aleatório - PVH - RO</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        </section>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
